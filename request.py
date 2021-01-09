@@ -22,5 +22,5 @@ body = {
         
 }
 response = requests.post(url, data=body)
-response.json()
+print(response.json())
     
